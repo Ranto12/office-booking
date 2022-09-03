@@ -10,7 +10,8 @@ module.exports = {
       '2xl': '1440px'
     },
     colors:{
-      "primaryButton" : "#F15C60"
+      "primaryButton" : "#F15C60",
+      "inputColorPrimary": "#EDEDED"
     },
     extend: {},
   },
