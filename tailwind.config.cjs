@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx, css}"],
   theme: {
     screens:{
       'sm': '640px',
@@ -9,11 +9,12 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1440px'
     },
-    colors:{
-      "primaryButton" : "#F15C60",
-      "inputColorPrimary": "#EDEDED"
+    extend: {
+      colors:{
+        "primaryButton" : "#F15C60",
+        "inputColorPrimary": "#EDEDED"
+      }
     },
-    extend: {},
   },
   plugins: [],
 }

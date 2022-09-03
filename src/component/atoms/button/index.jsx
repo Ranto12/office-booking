@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = ({nameButton,  ...rest}) => {
   return (
-   <button className='h-auto w-auto p-4 rounded-lg' {...rest} >{nameButton}</button>
+   <button {...rest} className='h-16 w-full text-xl mb-5 p-4 bg-primaryButton text-white font-semibold rounded-lg'  >{nameButton}</button>
   )
 }
 

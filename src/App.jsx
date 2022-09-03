@@ -1,13 +1,19 @@
 import { useState } from 'react'
-import { Button, Input } from './component'
-import { Login } from './pages'
+import { Route, Routes } from 'react-router'
+import { BgPrimary, Button, Input } from './component'
+import { Home, Login, Register } from './pages'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Login/>
+     <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/home" element={<Home />} />
+      
+     </Routes>
     </>
   )
 }
