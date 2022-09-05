@@ -12,7 +12,9 @@ module.exports = {
     extend: {
       colors:{
         "primaryButton" : "#F15C60",
-        "inputColorPrimary": "#EDEDED"
+        "inputColorPrimary": "#EDEDED",
+        "wrapper-Input": "#DCDCDC",
+        'body' : "#E5E5E5"
       }
     },
   },
