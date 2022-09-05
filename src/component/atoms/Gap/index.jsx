@@ -1,8 +1,8 @@
 import React from 'react'
 
-const index = ({h}) => {
+const index = ({height}) => {
   return (
-    <div className={`h-${h}` }></div>
+    <div className={`mb-${height} `}></div>
   )
 }
 

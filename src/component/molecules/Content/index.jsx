@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className=' mx-32'>
         <TagHeader className="" title="Sewa - Ruang Kantor Populer" />
-        <Gap h="10"/>
+        <Gap height="10"/>
         <CardSewaKantor />
     </div>
   )
