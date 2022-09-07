@@ -1,3 +1,4 @@
 import SearchMenu from './SearchMenu'
+import SliderOffice from './SliderOffice'
 
-export {SearchMenu}
+export {SearchMenu, SliderOffice}

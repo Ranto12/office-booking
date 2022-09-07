@@ -14,9 +14,6 @@ const index = ({className, ...rest}) => {
                 </option>
             </select>
         </div>
-        {/* <div>
-          <button className='' data-drop></button>
-        </div> */}
     </div>
   )
 }

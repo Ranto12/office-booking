@@ -49,7 +49,7 @@ console.log(style);
         <div className={`w-full h-auto text-center rounded-b-lg ${style ? "" : "hidden"}`}>
           {data.map((item)=>{
             return(
-              <div key={item.id} className='w-full h-16 text-center rounded-lg border-black border-3 flex items-center justify-center text-lg font-semibold bg-slate-300 bg-opacity-70 hover:bg-opacity-100'   onClick={() => {setValueSearch(item.name)}}>{item.name}</div>
+              <div key={item.id} className='w-full h-16 text-center rounded-lg border-black border-3 flex items-center justify-center text-lg font-semibold bg-slate-300 bg-opacity-70 hover:bg-opacity-100 cursor-pointer'   onClick={() => {setValueSearch(item.name)}}>{item.name}</div>
             )
           })}      
         </div>
