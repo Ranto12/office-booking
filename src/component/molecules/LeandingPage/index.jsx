@@ -1,7 +1,7 @@
 import React from 'react'
 import { Profil } from '../../../assets/image'
 import { BgPrimary } from '../../atoms';
-import { SearchMenu } from '../../molecules';
+import { SearchMenu } from '../../Organism';
 
 const index = () => {
   return (

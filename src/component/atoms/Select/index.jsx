@@ -8,10 +8,15 @@ const index = ({className, ...rest}) => {
             <img src={IconsOffice} alt="inconSearch" className=' w-auto' />
         </div>
         <div className='w-5/6 h-auto'>
-            <select name="nama" id="nama" className='h-auto w-full outline-none rounded-xl font-semibold text-xl px-5 '>
-                <option value="" className='outline-none px-3 h-20 w-full active:bg-white border-none'>mantul</option>
+            <select name="nama" id="nama" className='h-full w-full outline-none rounded-xl font-semibold text-xl px-5 my-0  '>
+                <option value="">
+                  <List/>
+                </option>
             </select>
         </div>
+        {/* <div>
+          <button className='' data-drop></button>
+        </div> */}
     </div>
   )
 }

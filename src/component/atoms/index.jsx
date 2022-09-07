@@ -7,5 +7,6 @@ import Gap from './Gap'
 import TagHeader from './TagHeader'
 import TagIcons from './TagIcons'
 import CardTestimoni from './CardTestimoni'
+import List from './list'
 
-export {Button, Input, BgPrimary, Select, Card, Gap, TagHeader, TagIcons, CardTestimoni};
+export {Button, Input, BgPrimary, Select, Card, Gap, TagHeader, TagIcons, CardTestimoni, List};
