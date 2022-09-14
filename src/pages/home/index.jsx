@@ -1,9 +1,10 @@
 import React from 'react'
-import {  ClientOffice, Content, Footer, Gap, LeandingPage, SliderOffice, Testimoni } from '../../component'
+import {  ClientOffice, Content, Footer, Gap, LeandingPage, Navbar, SliderOffice, Testimoni } from '../../component'
 
 const index = () => {
   return (
     <div>
+      <Navbar/>
       <LeandingPage/>
       <Gap  height="10"/>
       <SliderOffice />

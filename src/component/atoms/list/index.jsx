@@ -13,6 +13,14 @@ const index = () => {
     {
       id: 2,
       name: "kantor Indonesia"
+    },
+    {
+      id: 2,
+      name: "kantor Jakarta"
+    },
+    {
+      id: 2,
+      name: "kantor New York"
     }
   ]
 
@@ -27,7 +35,8 @@ const index = () => {
   useEffect(()=>{
     setStyle(false)
     if(valueSearch.length > 10){
-      setValueSearch(valueSearch.slice(0,10)+"..")
+      setValueSearch(valueSearch)
+      // setValueSearch(valueSearch.slice(0,10)+"..")
     } else{
       setValueSearch(valueSearch)
     }

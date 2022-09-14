@@ -18,9 +18,9 @@ const index = () => {
             <p className='mb-10 font-bold text-2xl'>Sign in</p>
             <Input className=" bg-inputColorPrimary    " Label="Email Address" placeholder="Your Email"/>
             <Input className=" bg-inputColorPrimary   " Label="Password" placeholder="Your Password"/>
-            <p className='text-end font-normal text-base mb-5 text-red-600 '>Forget Your Password</p>
+            <p className='text-end font-normal text-base mb-5 text-red-600 cursor-pointer'>Forget Your Password</p>
             <Button nameButton="Sign in" onClick={handleLogin} />
-            <p className='text-center font-medium'>Don't have an account? <span className='text-red-700'>Sign Up</span></p>
+            <p className='text-center font-medium'>Don't have an account? <span className='text-red-700 cursor-pointer'>Sign Up</span></p>
         </div>
     </div>
   )
