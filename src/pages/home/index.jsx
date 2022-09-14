@@ -1,5 +1,5 @@
 import React from 'react'
-import {  ClientOffice, Content, Footer, Gap, LeandingPage, Navbar, SliderOffice, Testimoni } from '../../component'
+import {  ClientOffice, Content, Footer, Gap, LeandingPage, Navbar,  Slider,  Testimoni } from '../../component'
 
 const index = () => {
   return (
@@ -7,7 +7,9 @@ const index = () => {
       <Navbar/>
       <LeandingPage/>
       <Gap  height="10"/>
-      <SliderOffice />
+      {/* <SliderOffice /> */}
+      <Slider/>
+
       <Gap  height="10"/>
       <Content />
       <Gap height="10"/>
