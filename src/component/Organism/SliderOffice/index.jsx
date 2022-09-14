@@ -30,7 +30,7 @@ const index = () => {
         className=""
       >
             <div>
-            <SwiperSlide className="h-96 rounded-xl bg-opacity-0">
+            <SwiperSlide className="h-96 rounded-xl ">
                 <img src={Bgprimary} alt="bg" className="rounded-xl"/>
             </SwiperSlide>
             </div> 
