@@ -14,7 +14,8 @@ module.exports = {
         "primaryButton" : "#F15C60",
         "inputColorPrimary": "#EDEDED",
         "wrapper-Input": "#DCDCDC",
-        'body' : "#E5E5E5"
+        'body' : "#E5E5E5",
+        'text-abu-abu' : "#7D7D7D"
       }
     },
   },

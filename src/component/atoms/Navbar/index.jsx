@@ -6,7 +6,7 @@ const index = () => {
     const [bgnav, setBgnav] = useState(false)
 
     const handleBgnav =()=>{
-        if(window.scrollY >= 80 ){
+        if(window.scrollY >= 20 ){
             setBgnav(true)
         }else{
             setBgnav(false)

@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Facebook, Instagram, Linkedin, Logo } from '../../../assets'
 
 const index = () => {
   return (
-    <div className='mx-32 h-auto my-5   text-center py-5 '>
+    <div className=' relative left-0 bottom-5 text-center w-full px-32 mt-20'>
         <div className='w-full md:flex px-5'>
             <div className='md:w-2/3 justify-start'>
                 <img src={Logo} alt="logo" className='mx-auto md:ml-5'/>
@@ -36,7 +37,7 @@ const index = () => {
                         <p>Syarat & Ketentuan</p>
                         <p>Kebijakan Privasi</p>
                         <p>About Us</p>
-                        <p>FAQ</p>
+                        <Link to='/faq'><p>FAQ</p></Link>
                     </div>
                 </div>
             </div>
