@@ -43,7 +43,7 @@ const index = () => {
             </div>
         </div>
         <hr  className='border-b-1 border-black '/>
-        <p className='font-semibold text-lg'>All rights reserved © SewaKantor Corporation 2021</p>
+        <p className='font-semibold text-lg py-10'>All rights reserved © SewaKantor Corporation 2021</p>
     </div>
     
   )

@@ -9,5 +9,6 @@ import Search from './Search'
 import ButtonSlider from './ButtonSlider'
 import CardFaq from './CardFaq'
 import Dropdown from './DropdownFaq'
+import CardDetailOffice from './CardDetailOffice'
 
-export {LeandingPage, CardSewaKantor, Content, ClientOffice, Testimoni, Footer, SelectOfficeOption, Search, ButtonSlider, CardFaq, Dropdown}
+export {LeandingPage, CardSewaKantor, Content, ClientOffice, Testimoni, Footer, SelectOfficeOption, Search, ButtonSlider, CardFaq, Dropdown, CardDetailOffice}
