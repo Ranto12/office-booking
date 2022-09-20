@@ -15,7 +15,7 @@ const index = () => {
 
     window.addEventListener('scroll', handleBgnav)
   return (
-    <nav className={`fixed w-full px-10  z-50 ${bgnav ? 'bg-opacity-40 bg-white shadow-slate-800 shadow-sm' : ''}`}>
+    <nav className={`fixed w-full px-10  z-50 ${bgnav ? 'bg-opacity-95 bg-white shadow-slate-800 shadow-sm' : ''}`}>
            <div className='flex justify-between h-1/5 items-center'>
                 <h4 className=' text-black font-bold text-4xl italic'>
                     <img src={Logo} alt="logo"/>
